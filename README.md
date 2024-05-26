@@ -5,7 +5,9 @@
 Follow these step to run project
 ========================
 
-git clone https://github.com/KaungKhantHtun/astro_drone_golang  cd astro_drone_golang
+git clone https://github.com/KaungKhantHtun/astro_drone_golang  
+
+cd astro_drone_golang
 
 make init-dependency  wire gen astro_drone/config
 
@@ -32,7 +34,9 @@ API
 =======================
 
 POST => localhost:8080/api/drone/
+
 GET => localhost:8080/api/drone/
+
 GET => localhost:8080/api/drone/1994  
 
 
